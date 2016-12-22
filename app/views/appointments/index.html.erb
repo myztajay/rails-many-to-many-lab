@@ -1,0 +1,5 @@
+<h1>All Appointments</h1>
+<% @appointments.each do |x| %>
+<h2><%=x.doctor.name%> with <%=x.patient.name%></h2>
+<h2><%=x.date%></h2>
+<% end %>
