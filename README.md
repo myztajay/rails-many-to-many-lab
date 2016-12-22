@@ -10,7 +10,7 @@ In fact, there is supposed to be a join model linking doctors and patients, so t
 
 ## Problem Domain
 
-At Dr. Scully's practice, there is an assortment of doctors, each with their own specialty. The many patients of Dr. Manny's practice have various ailments and have to see different doctors on different occasions. Each patient potentially has multiple doctors that they will need to see.
+At Dr. Scully's practice, there is an assortment of doctors, each with their own specialty. The many patients of Dr. Scully's practice have various ailments and have to see different doctors on different occasions. Each patient potentially has multiple doctors that they will need to see.
 
 ## Specifications
 
