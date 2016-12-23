@@ -1,0 +1,13 @@
+<%=form_for @appointment do |f| %>
+  <%= f.label :doctor%>
+  <%= f.select :doctor_id, Doctor.all.map { |d| [d.name, d.id]}%>
+
+  <%= f.label :patient%>
+  <%= f.select :patient_id, Patient.all.map{ |u| [u.name, u.id]}%>
+
+  <%= f.label :date%>
+  <%= f.text_field :date%>
+
+  <%= f.submit%>
+
+  <%end%>

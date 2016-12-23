@@ -1,5 +1,8 @@
 <h1>All Appointments</h1>
+
+<%=link_to '<button>Schedule an Appointment</button>'.html_safe, new_appointment_path %>
 <% @appointments.each do |x| %>
-<h2><%=x.doctor.name%> with <%=x.patient.name%> at <%=x.date%></h2>
+<h2><%=x.doctor.name%> with <%=x.patient.name%> at <span style="color:blue;"><%=x.date%></span>
+</h2>
 <h4><%=link_to "More details", appointment_path(x)%></h4>
 <% end %>
